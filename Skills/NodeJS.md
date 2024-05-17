@@ -1,48 +1,48 @@
 ## Node.js and backend
 
 - Internals and concepts
-  - Strong and weak sides of node.js
-  - Stateful and stateless servers
-  - Nonblocking I/O and blocking code
+  - Strong and weak sides of node.js h
+  - Stateful and stateless servers h
+  - Nonblocking I/O and blocking code k
   - Event loop phases
   - Event loop microtasks and macrotasks
-  - Garbage collection
-  - Node.js LTS schedule
+  - Garbage collection h
+  - Node.js LTS schedule h
   - I/O-bound, CPU-bound, memory-bound tasks
   - Interactive applications (close to real-time)
 - Modularity, layers and dependencies
-  - CommonJS modules
-  - ECMAScript modules
-  - Module `node:module`
+  - CommonJS modules u
+  - ECMAScript modules u
+  - Module `node:module` u
   - Caching in CJS and ESM
-  - Modules as singletons
+  - Modules as singletons u
   - Contexts and scripts module `node:vm`
-  - Dependencies: `npm`, `node_modules`
-  - Files `package.json`, `package-lock.json`
+  - Dependencies: `npm`, `node_modules` e
+  - Files `package.json`, `package-lock.json` u
   - Module-based permissions model
   - Isolation with modularity
-  - Dependency injection
+  - Dependency injection h
   - DI containers
   - Coupling and cohesion
-  - Framework agnostic approach
+  - Framework agnostic approach h
 - Environment
-  - Command line arguments
-  - Node.js CLI
+  - Command line arguments u
+  - Node.js CLI h
   - Process-based permissions
-  - Graceful shutdown
+  - Graceful shutdown h
   - Clustering
-  - Watch filesystem changes with --watch
+  - Watch filesystem changes with --watch k
 - Internal API
-  - Streams API
+  - Streams API k
   - Web Streams API
   - Crypto API
   - Password hashing with crypto.scrypt
   - Web Crypto API
-  - File system API (sync and async)
+  - File system API (sync and async) u
   - Copy folder recursively
-  - Worker threads
+  - Worker threads h
   - Performance hooks
-  - Native fetch and nodejs/undici
+  - Native fetch and nodejs/undici k
   - async_hooks
   - AsyncLocalStorage
   - AsyncResource
@@ -50,56 +50,56 @@
   - Node.js single executable
   - SharedArrayBuffer
   - Module `node:worker_threads`
-  - Module `node:child_process`
+  - Module `node:child_process` h
   - MessageChannel, MessagePort
   - BroadcastChannel
   - Generating crypto random UUID
-  - Module `node:url` vs `new URL`
-  - Module `node:assert`
+  - Module `node:url` vs `new URL` k
+  - Module `node:assert` k
   - Internationalization
-  - Blob, File, Buffer, module `node:buffer`
+  - Blob, File, Buffer, module `node:buffer` h
   - Module `node:zlib`
 - Network
-  - Endpoint throttling
+  - Endpoint throttling h
   - ALPN
   - SNI callback
-  - SSL certificates
+  - SSL certificates h
   - Protocol agnostic approach
-  - Fetch API
+  - Fetch API h
   - IncomingMessage
-  - HTTP(S)
-  - TCP/SSL
-  - UDP
+  - HTTP(S) h
+  - TCP/SSL h
+  - UDP h
   - TLS
-  - Websocket
+  - Websocket h
   - SSE
   - HTTP/3 (QUIC)
   - Long polling
-  - REST
+  - REST k
   - RPC
   - Routing
   - DoS
-  - DDoS
+  - DDoS h
   - XSS
   - Path traversal
-  - CSRF
+  - CSRF h
   - DNS
-  - SQL injection
+  - SQL injection h
   - noDelay
   - keep-alive
   - IP sticky sessions
 - Technique and tools
-  - Native test runner
-  - Logging
+  - Native test runner k
+  - Logging k
   - Application configuring
-  - Testing
-  - CI/CD
+  - Testing u
+  - CI/CD k
   - Readable
   - Writable
   - Transform
   - Back pressure
   - Buffer
-  - Console
+  - Console k
   - Inspector
 - Data access
   - Data access layer
@@ -107,26 +107,26 @@
   - Active record
   - Query builder
   - Object-Relational Mapping
-  - CRUD
+  - CRUD u
   - DTO
 - Error handling and debugging
-  - `Error`
+  - `Error` u
   - `error.cause`
-  - `error.code`
-  - `error.message`
-  - `error.stack`
+  - `error.code` k
+  - `error.message` u
+  - `error.stack` k
   - `Error.captureStackTrace`
   - How to avoid mixins
-  - Uncaught exceptions
+  - Uncaught exceptions h
   - Heap dump
-  - Debugging tools
+  - Debugging tools k
   - Flame graph
   - Memory leaks
   - Resource leaks
   - Data race
 - Integrations and bindings
-  - Native addons
-  - `C` and `C++` addons
+  - Native addons h
+  - `C` and `C++` addons h
   - `Rust` addons
   - `Zig` addons
   - NAN (Native Abstractions for Node.js)
